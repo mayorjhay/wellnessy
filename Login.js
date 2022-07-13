@@ -6,7 +6,7 @@ function myfunc() {
     if(user.value !== ""){
       login.disabled=true
       
-  location.replace("dashboard.html");
+  window.location.href("dashboard.html");
     }else{
         alert("fill up the empty space")
     }
